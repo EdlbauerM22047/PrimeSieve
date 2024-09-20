@@ -9,7 +9,7 @@ public class naturalNumberCalculator {
             for(int n=2;n<i/2;n++){
                     if(primeSieve.isPrime(n)){
                         if(primeSieve.isPrime(i-n)){
-                           
+                            System.out.println(i+ " summe: "+ i +" = "+ n +" + "+ (i-n));
                         }
                     }
             }
